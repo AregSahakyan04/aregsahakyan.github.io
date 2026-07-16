@@ -3,20 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Areg Sahakyan — Software Engineer</title>
-  <meta name="description" content="Areg Sahakyan — Software Engineer portfolio: full-stack, AI integration, and software fundamentals projects.">
+  <title>Areg Sahakyan — Software Engineer, Security-Focused</title>
+  <meta name="description" content="Areg Sahakyan — Software Engineer moving into security engineering: secure development, security auditing, and automation.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <img src="avatar_img.jpg" alt="Areg Sahakyan" class="avatar">
     <h1>Areg Sahakyan</h1>
-    <p class="headline">Software Engineer, building toward Cybersecurity &amp; QA</p>
+    <p class="headline">Software Engineer, Security-Focused</p>
     <p class="bio">
-      Recent Computer Science graduate who builds complete, working projects rather than tutorials —
-      full-stack apps with real AI integrations, clean OOP fundamentals, and an eye for the details
-      recruiters actually check (real READMEs, sane commit history, no dead code). Currently expanding
-      into QA automation and cybersecurity.
+      I write software, then review it the way an attacker would — checking authentication flows,
+      input handling, and the failure cases most projects skip. I'm a recent Computer Science graduate
+      moving deliberately into security engineering: secure development, security auditing, and
+      automating the repetitive parts of both. I learn by building complete systems and taking them
+      apart to find where they break.
     </p>
     <nav class="links">
       <a href="https://github.com/AregSahakyan04">GitHub</a>
@@ -29,27 +30,24 @@
       <h2>Projects</h2>
       <div class="project-grid">
         <article class="project">
+          <h3>Clinical Data QC & Standardization Toolkit</h3>
+          <p>Rule-based detection engine that audits datasets against a defined policy — flags missing
+             fields, invalid values, and cross-field logic violations before they reach downstream
+             systems. Paired with a fuzzy-matching standardizer for messy input data.</p>
+          <div class="tags"><span>Python</span><span>Rule Engine</span><span>Data Auditing</span><span>Automation</span></div>
+          <a href="https://github.com/AregSahakyan04/clinical-data-qc-toolkit">View on GitHub →</a>
+        </article>
+        <article class="project">
           <h3>MediaSanitar</h3>
-          <p>Hybrid AI system that scores news articles for credibility, bias, and logical fallacies —
-             Selenium scraping combined with GPT-4o analysis, tuned for English and Armenian.</p>
+          <p>Automated content-analysis pipeline: deterministic scraping feeds a detection layer that
+             flags bias and logical fallacies in source text, combining rule-based extraction with
+             LLM-based pattern analysis across English and Armenian.</p>
           <div class="tags"><span>Python</span><span>Flask</span><span>OpenAI API</span><span>Selenium</span></div>
           <a href="https://github.com/AregSahakyan04/mediasanitar">View on GitHub →</a>
         </article>
-        <article class="project">
-          <h3>Mental Health Companion</h3>
-          <p>Streamlit app for student mental health: a GPT-4 chatbot, mood tracking with charts,
-             private journaling, and bcrypt-secured authentication.</p>
-          <div class="tags"><span>Python</span><span>Streamlit</span><span>OpenAI API</span><span>SQLite</span></div>
-          <a href="https://github.com/AregSahakyan04/mental-health-companion">View on GitHub →</a>
-        </article>
-        <article class="project">
-          <h3>Snake (WPF)</h3>
-          <p>Classic Snake game in C# and WPF, built with game logic cleanly separated from the UI
-             layer and a buffered input queue to avoid double-turn bugs.</p>
-          <div class="tags"><span>C#</span><span>WPF</span><span>.NET</span></div>
-          <a href="https://github.com/AregSahakyan04/snake-wpf">View on GitHub →</a>
-        </article>
       </div>
+      <p class="projects-note">Currently building hands-on security projects — rule-based intrusion
+         detection and secure-auth patterns. More soon.</p>
     </section>
   </main>
 

@@ -91,6 +91,13 @@ main {
   margin-top: 20px;
 }
 
+.projects-note {
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 24px;
+}
+
 .project {
   background: var(--card);
   border: 1px solid var(--border);
